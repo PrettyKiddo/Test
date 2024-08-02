@@ -3,13 +3,11 @@ public class input {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Здраствуйте, как вас зовут?");
-        String username = s.nextLine();
-        System.out.println("Приятно познакомиться "+username);
+        String string = s.nextLine();
+        System.out.println("Приятно познакомиться " + string);
         System.out.println("Как у вас дела?");
-        String userfeeling = s.nextLine();
+        string = s.nextLine();
         System.out.println("Понятно, а сколько вам лет?");
-        int userage = s.nextInt();
-        System.out.println("Ого целых "+userage);
-
+        int q = s.nextInt();
+        System.out.println("Ого целых " + q);
     }
-}
